@@ -46,10 +46,9 @@ jobs:
           branch: gh-pages
           folder: src/.vuepress/dist
 
-      - name: 推送文件到服务器
-        uses: appleboy/scp-action@master
+      - name: 服务器执行更新
+        uses: garygrossgarten/github-action-ssh@release
         with:
-          branch: gh-pages
           # 服务器域名
           host: ${{ secrets.SERVER_HOST }}
           # 服务器用户名
@@ -58,11 +57,4 @@ jobs:
           password: ${{ secrets.SERVER_PASSWORD }}
           # 服务器端口
           port: ${{ secrets.SERVER_PORT }}
-          # 指定上传的文件目录(项目配置的打包目录名称)
-          source: './'
-          # 指定上传服务器目录
-          target: '/var/www/movie'
-          # 解压时覆盖现有文件
-          overwrite: true
-          # 删除指定数量的前导路径元素
-          strip_components: 1
+          command: ls -a
