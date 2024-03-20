@@ -57,4 +57,4 @@ jobs:
           password: ${{ secrets.SERVER_PASSWORD }}
           # 服务器端口
           port: ${{ secrets.SERVER_PORT }}
-          command: ls -a
+          command: sh git_docker_change_pull.sh
