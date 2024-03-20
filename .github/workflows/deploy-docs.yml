@@ -49,6 +49,7 @@ jobs:
       - name: 推送文件到服务器
         uses: appleboy/scp-action@master
         with:
+          branch: gh-pages
           # 服务器域名
           host: ${{ secrets.SERVER_HOST }}
           # 服务器用户名
