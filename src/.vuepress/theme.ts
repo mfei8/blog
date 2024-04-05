@@ -7,7 +7,7 @@ export default hopeTheme({
   hostname: "https://mfei.fun",
 
   author: {
-    name: "Mr.mfei",
+    name: "Mr.MFei",
     // url: "https://mfei.fun",
   },
 
@@ -15,7 +15,7 @@ export default hopeTheme({
 
   logo: "https://theme-hope-assets.vuejs.press/logo.svg",
 
-  repo: "https://github.com/mfei8/blog.git",
+  repo: "https://github.com/mfei8/blog",
 
   docsDir: "src",
 
@@ -27,7 +27,7 @@ export default hopeTheme({
 
   // 页脚
   footer: "默认页脚",
-  displayFooter: false,
+  displayFooter: true,
 
   // 博客相关
   // blog: {
