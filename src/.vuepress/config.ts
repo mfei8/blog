@@ -5,8 +5,8 @@ export default defineUserConfig({
   base: "/blog/",
 
   lang: "zh-CN",
-  title: "博客演示1",
-  description: "vuepress-theme-hope 的博客演示",
+  title: "行舟的技术成长之路",
+  description: "行舟的技术成长之路",
 
   theme,
 
