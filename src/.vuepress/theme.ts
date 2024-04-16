@@ -13,7 +13,8 @@ export default hopeTheme({
 
   iconAssets: "fontawesome-with-brands",
 
-  logo: "https://theme-hope-assets.vuejs.press/logo.svg",
+  logo: "/assets/icon/devise/纯黑.png",
+  logoDark: "/assets/icon/devise/纯白.png",
 
   repo: "https://github.com/mfei8/blog",
 
@@ -26,7 +27,7 @@ export default hopeTheme({
   sidebar,
 
   // 页脚
-  footer: "默认页脚",
+  footer: "<a href=\"https://beian.miit.gov.cn/\" target=\"_blank\"> 豫ICP备2020034156号-1</a>  | 主题: <a href=\"https://theme-hope.vuejs.press/zh/\" target=\"_blank\">VuePress Theme Hope</a>",
   displayFooter: true,
 
   // 博客相关
