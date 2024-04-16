@@ -7,6 +7,9 @@ export default defineUserConfig({
   lang: "zh-CN",
   title: "行舟的技术成长之路",
   description: "行舟的技术成长之路",
+  head: [
+    ['link', { rel: 'icon', href: '/assets/icon/devise/纯黑.png' }]
+  ],
 
   theme,
 
