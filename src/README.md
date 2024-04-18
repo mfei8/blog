@@ -7,7 +7,7 @@ heroImageDark: /assets/icon/devise/纯白.png
 heroText: 行舟的技术成长之路
 tagline: 
 actions:
-#   - text: 快速上手
+#   - text: 快速上手测试
 #     link: /zh/get-started/
 #     icon: signs-post
 #     type: primary
