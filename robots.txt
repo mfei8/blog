@@ -2,4 +2,4 @@
 User-agent:*
 Disallow:
 
-Sitemap: https://mfei.fun/blog/sitemap.xml
+Sitemap: https://mfei.fun/sitemap.xml
